@@ -1,0 +1,176 @@
+.ask-table {
+    border-collapse: collapse !important; }
+.ask-table td,
+.ask-table th {
+    background-color: #fff !important; }
+
+.ask-table-bordered th,
+.ask-table-bordered td {
+    border: 1px solid #ddd !important; } 
+
+.ask-table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent; }
+.ask-table th,
+.ask-table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #e9ecef; }
+.ask-table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #e9ecef; }
+.ask-table tbody + tbody {
+    border-top: 2px solid #e9ecef; }
+.ask-table .ask-table {
+    background-color: #fff; }
+
+.ask-table-sm th,
+.ask-table-sm td {
+    padding: 0.3rem; }
+
+.ask-table-bordered {
+    border: 1px solid #e9ecef; }
+.ask-table-bordered th,
+.ask-table-bordered td {
+    border: 1px solid #e9ecef; }
+.ask-table-bordered thead th,
+.ask-table-bordered thead td {
+    border-bottom-width: 2px; }
+
+.ask-table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05); }
+
+.ask-table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.075); }
+
+.ask-table-primary,
+.ask-table-primary > th,
+.ask-table-primary > td {
+    background-color: #b8daff; }
+
+.ask-table-hover .ask-table-primary:hover {
+    background-color: #9fcdff; }
+.ask-table-hover .ask-table-primary:hover > td,
+.ask-table-hover .ask-table-primary:hover > th {
+    background-color: #9fcdff; }
+
+.ask-table-secondary,
+.ask-table-secondary > th,
+.ask-table-secondary > td {
+    background-color: #dddfe2; }
+
+.ask-table-hover .ask-table-secondary:hover {
+    background-color: #cfd2d6; }
+.ask-table-hover .ask-table-secondary:hover > td,
+.ask-table-hover .ask-table-secondary:hover > th {
+    background-color: #cfd2d6; }
+
+.ask-table-success,
+.ask-table-success > th,
+.ask-table-success > td {
+    background-color: #c3e6cb; }
+
+.ask-table-hover .ask-table-success:hover {
+    background-color: #b1dfbb; }
+.ask-table-hover .ask-table-success:hover > td,
+.ask-table-hover .ask-table-success:hover > th {
+    background-color: #b1dfbb; }
+
+.ask-table-info,
+.ask-table-info > th,
+.ask-table-info > td {
+    background-color: #bee5eb; }
+
+.ask-table-hover .ask-table-info:hover {
+    background-color: #abdde5; }
+.ask-table-hover .ask-table-info:hover > td,
+.ask-table-hover .ask-table-info:hover > th {
+    background-color: #abdde5; }
+
+.ask-table-warning,
+.ask-table-warning > th,
+.ask-table-warning > td {
+    background-color: #ffeeba; }
+
+.ask-table-hover .ask-table-warning:hover {
+    background-color: #ffe8a1; }
+.ask-table-hover .ask-table-warning:hover > td,
+.ask-table-hover .ask-table-warning:hover > th {
+    background-color: #ffe8a1; }
+
+.ask-table-danger,
+.ask-table-danger > th,
+.ask-table-danger > td {
+    background-color: #f5c6cb; }
+
+.ask-table-hover .ask-table-danger:hover {
+    background-color: #f1b0b7; }
+.ask-table-hover .ask-table-danger:hover > td,
+.ask-table-hover .ask-table-danger:hover > th {
+    background-color: #f1b0b7; }
+
+.ask-table-light,
+.ask-table-light > th,
+.ask-table-light > td {
+    background-color: #fdfdfe; }
+
+.ask-table-hover .ask-table-light:hover {
+    background-color: #ececf6; }
+.ask-table-hover .ask-table-light:hover > td,
+.ask-table-hover .ask-table-light:hover > th {
+    background-color: #ececf6; }
+
+.ask-table-dark,
+.ask-table-dark > th,
+.ask-table-dark > td {
+    background-color: #c6c8ca; }
+
+.ask-table-hover .ask-table-dark:hover {
+    background-color: #b9bbbe; }
+.ask-table-hover .ask-table-dark:hover > td,
+.ask-table-hover .ask-table-dark:hover > th {
+    background-color: #b9bbbe; }
+
+.ask-table-active,
+.ask-table-active > th,
+.ask-table-active > td {
+    background-color: rgba(0, 0, 0, 0.075); }
+
+.ask-table-hover .ask-table-active:hover {
+    background-color: rgba(0, 0, 0, 0.075); }
+.ask-table-hover .ask-table-active:hover > td,
+.ask-table-hover .ask-table-active:hover > th {
+    background-color: rgba(0, 0, 0, 0.075); }
+
+.thead-inverse th {
+    color: #fff;
+    background-color: #212529; }
+
+.thead-default th {
+    color: #495057;
+    background-color: #e9ecef; }
+
+.ask-table-inverse {
+    color: #fff;
+    background-color: #212529; }
+.ask-table-inverse th,
+.ask-table-inverse td,
+.ask-table-inverse thead th {
+    border-color: #32383e; }
+.ask-table-inverse.ask-table-bordered {
+    border: 0; }
+.ask-table-inverse.ask-table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, 0.05); }
+.ask-table-inverse.ask-table-hover tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.075); }
+
+@media (max-width: 991px) {
+    .ask-table-responsive {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -ms-overflow-style: -ms-autohiding-scrollbar; }
+    .ask-table-responsive.ask-table-bordered {
+        border: 0; } }

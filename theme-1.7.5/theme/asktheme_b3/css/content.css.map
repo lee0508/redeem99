@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";AACA;;;;;wFAKwF;AAQxF,aAAa,GACT,aAAa,EAAC,IAAI;AAClB,4BAAc,GACV,UAAU,EAAC,IAAI",
+"sources": ["../_scss/content.scss"],
+"names": [],
+"file": "content.css"
+}

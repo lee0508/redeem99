@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*
+* css는 유료테마 ASKTHEME의 일부입니다. 불법복제시 불이익을 받을 수 있습니다.
+* features 각종 기능 모음
+*
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+@import "functions";
+@import "_variables";
+@import "_old-variables";
+@import "mixins";
+@import "mixins/_ask";
+@import "custom";
+
+#features-page .subpage-wrap{
+    margin: 10rem 0;
+}

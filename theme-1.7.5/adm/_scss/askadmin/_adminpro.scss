@@ -1,0 +1,330 @@
+@charset "UTF-8";
+/* 배너 메뉴 */
+.sub-top-menu-wrap{
+    @include clearfix; padding : .5rem 0; margin-bottom : 1rem; 
+    .button{
+        margin-bottom : .25rem;
+        span{
+            display: none;
+        }
+        @include media-breakpoint-up(md){
+            margin-bottom : 0;
+            span{
+                display: inline;
+            }
+        }   
+    }
+}
+
+/* form wrap */
+.ask-form-wrap{
+    background-color: $white; padding-top : 1rem; padding-bottom : 2rem;
+    input[size='2']{
+        width: 2rem;text-align : center;
+    }
+    input[size='3']{
+        width: 3rem; text-align : center;
+    }
+    input[size='4']{
+        width: 4rem; text-align : center;
+    }
+    input[size='5']{
+        width: 5rem; 
+    }
+    input[size='6']{
+        width: 6rem;
+    }
+    input[size='7']{
+        width: 7rem;
+    }
+    input[size='8']{
+        width: 8rem;
+    }
+    input[size='9']{
+        width: 9rem;
+    }
+    input[size='10']{
+        width: 10rem;
+    }
+    input[size='11']{
+        width: 11rem;
+    }
+    input[size='12']{
+        width: 12rem;
+    }
+    input[size='13']{
+        width: 13rem;
+    }
+    input[size='14']{
+        width: 14rem;
+    }
+    input[size='15']{
+        width: 15rem;
+    }
+    input[size='16']{
+        width: 16rem;
+    }
+    input[size='17']{
+        width: 17rem;
+    }
+    input[size='18']{
+        width: 18rem;
+    }
+    input[size='19']{
+        width: 19rem;
+    }
+    input[size='21']{
+        width: 100%;
+        @include media-breakpoint-up(sm){
+            width: 21rem;
+        }
+    }
+    input[size='22']{
+        width: 100%;
+        @include media-breakpoint-up(sm){
+            width: 22rem;
+        }
+    }
+    input[size='23']{
+        width: 100%;
+        @include media-breakpoint-up(sm){
+            width: 23rem;
+        }
+    }
+    input[size='24']{
+        width: 100%;
+        @include media-breakpoint-up(sm){
+            width: 24rem;
+        }
+    }
+    input[size='25']{
+        width: 100%;
+        @include media-breakpoint-up(sm){
+            width: 25rem;
+        }
+    }
+    input[size='26']{
+        width: 100%;
+        @include media-breakpoint-up(sm){
+            width: 26rem;
+        }
+    }
+    input[size='27']{
+        width: 100%;
+        @include media-breakpoint-up(sm){
+            width: 27rem;
+        }
+    }
+    input[size='28']{
+        width: 100%;
+        @include media-breakpoint-up(sm){
+            width: 28rem;
+        }
+    }
+    input[size='29']{
+        width: 100%;
+        @include media-breakpoint-up(sm){
+            width: 29rem;
+        }
+    }
+    input[size='30']{
+        width: 100%;
+        @include media-breakpoint-up(sm){
+            width: 30rem;
+        }
+    }
+}
+textarea[row='4']{
+    height : 4rem;
+}
+textarea[row='5']{
+    height : 5rem;
+}
+textarea[row='6']{
+    height : 6rem;
+}
+textarea[row='7']{
+    height : 7rem;
+}
+textarea[row='8']{
+    height : 8rem;
+}
+textarea[row='9']{
+    height : 9rem;
+}
+textarea[row='10']{
+    height : 10rem;
+}
+
+.readonly{
+    cursor: not-allowed;
+}
+
+/* Banner Add */
+.ba_type, .ba_use_time_wrap{
+    display: none;
+}
+.form-error{
+    border-bottom : 2px solid red !important;
+}
+.attach_preview{
+    padding: .5rem;
+    .priview-banner-image{
+        max-height: 100px; max-width : 100px;
+    }
+}
+.banner-list-preview{
+    .priview-banner-image{
+        img{
+            max-height: 100px; max-width : 100px;
+        }
+    }
+}
+.fsearch-wrap{
+    margin-bottom : 1rem;
+    .sfl-wrap{
+        line-height: 65px; text-align: center;
+    }
+}
+.banner-preview{
+    img{
+        max-width: 100%;
+    }
+}
+
+/* 스팸 */
+.spam-text-result{
+    background-color: $gray-800; padding : 1rem; font-size: .85rem; color: $gray-100; white-space: normal;word-break:break-all;
+    .spamword{
+        font-weight: 700; color : $yellow; font-size: 1.15rem;
+    }
+}
+
+/* 배너 슬라이더 */
+.banner-slider-wrap{
+    height : 450px; overflow : hidden; @include clearfix;
+    .swiper-container {
+        width: 100%;height: 100%;margin-left: auto;margin-right: auto;
+    }
+    .swiper-slide {
+        text-align: center;font-size: 18px;background: #fff;/* Center slide text vertically */
+        display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;-webkit-box-pack: center;-ms-flex-pack: center;-webkit-justify-content: center;justify-content: center;-webkit-box-align: center;-ms-flex-align: center;-webkit-align-items: center;align-items: center;
+        background-position: center center;background-repeat: no-repeat;background-size: cover;
+    }
+}
+.banner-slider-wrap2{
+    overflow : hidden; @include clearfix;
+    .swiper-container {
+        width: 100%;height: 100%;margin-left: auto;margin-right: auto;
+    }
+    .swiper-slide {
+        img{
+            width : 100%; height : auto;
+        }
+    }
+}
+
+/* 슬라이드 등록 */
+.asl_use_time_wrap{
+    display: none;
+}
+
+/* 슬라이드 출력 */
+.swipe-slider-wrap{
+    @include clearfix;
+}
+
+.slider .slider-inner {
+    width: 100%;height: 100%;left: 0;top: 0;
+}
+
+.slider, .slider-inner, .slider-catpion {
+    will-change: transform;-webkit-transform: translate3d(0, 0, 0);-webkit-transition: transform 0s linear;-webkit-backface-visibility: hidden;
+}
+
+.swiper-container {
+    width: 100%;height: 100%;
+}
+
+.swiper-slide {
+text-align: center;font-size: 18px;display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;-webkit-box-pack: center;-ms-flex-pack: center;-webkit-justify-content: center;
+justify-content: center;-webkit-box-align: center;-ms-flex-align: center;-webkit-align-items: center;align-items: center;margin: 0;background-position: center center;background-repeat: no-repeat;
+background-size: cover;cursor: move;position: relative;    //background-position-x: 0; background-position-y:0;
+    @include media-breakpoint-up(lg) {
+        //background-position-x: -25px; background-position-y: -50px; background-size: calc(100% + 50px); position: fixed;
+    }
+    .slider-catpion {
+        h2 {
+            color: $gray-200;@include text-shadow(1px, 1px, 1px, rgba(0, 0, 0, .35));font-weight: 700;line-height: 1.5;letter-spacing: 2px;padding: 0 2rem;font-size: 1.8rem;margin-bottom: 0;
+            @include media-breakpoint-up(sm) {
+                font-size: 2.5rem;margin-bottom: 1.5rem;
+            }
+            @include media-breakpoint-up(md) {
+                font-size: 3rem;margin-bottom: 2rem;
+            }
+        }
+        p {
+            display: none;font-size: 1rem;margin-bottom: 1rem;color: $white;
+            @include text-shadow(1px, 1px, 1px, rgba(0, 0, 0, .5));
+            padding: 0 2rem;
+            @include media-breakpoint-up(sm) {
+                font-size: 1.1rem;padding: 0 1.5rem;display: block;
+            }
+            @include media-breakpoint-up(md) {
+                font-size: 1.2rem;padding: 0 2rem;display: block;
+            }
+        }
+    }
+}
+
+.animate {
+    opacity: 0;-webkit-animation-duration: 1.5s;animation-duration: 1.5s;-webkit-animation-fill-mode: both;animation-fill-mode: both;
+}
+
+.animate-stop {
+    opacity: 0
+}
+
+@-webkit-keyframes fade-in-up {
+    0% {
+        opacity: 0;-webkit-transform: translate3d(0, 100%, 0);transform: translate3d(0, 100%, 0)
+    }
+    100% {
+        opacity: 1;-webkit-transform: none;transform: none
+    }
+}
+
+@keyframes fade-in-up {
+    0% {
+        opacity: 0;-webkit-transform: translate3d(0, 100%, 0);transform: translate3d(0, 100%, 0)
+    }
+    100% {
+        opacity: 1;-webkit-transform: none;transform: none
+    }
+}
+
+.fade-in-up {
+    -webkit-animation-name: fade-in-up;animation-name: fade-in-up
+}
+
+@-webkit-keyframes fade-out-down {
+    0% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0;-webkit-transform: translate3d(0, 100%, 0);transform: translate3d(0, 100%, 0)
+    }
+}
+
+@keyframes fade-out-down {
+    0% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0;-webkit-transform: translate3d(0, 100%, 0);transform: translate3d(0, 100%, 0)
+    }
+}
+
+.fade-out-down {
+    -webkit-animation-name: fade-out-down;animation-name: fade-out-down
+}

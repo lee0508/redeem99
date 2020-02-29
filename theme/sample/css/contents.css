@@ -1,0 +1,59 @@
+/*인사말*/
+.overCon { max-width:1200px; margin:0 auto; padding-top:50px;  }
+.overCon:after {content: " ";isibility: hidden;display: block;height: 0;clear: both;} 
+.overCon .colum { padding:20px; width:100%; margin:0 auto; box-sizing:border-box}
+.overCon .colum:after{clear:both; content:""; display:block;}
+.overCon .colum h2 { font-size:22px; color:#000; font-weight:600; padding-bottom:20px}
+.overCon .colum .left{float:left; width:520px; font-size:1.000em; line-height:1.95em;  text-align:justify; }
+.overCon .colum .right{float:right; width:520px; font-size:1.000em;  line-height:1.95em; text-align:justify; }
+.overCon .sign {text-align:right; font-size:1.125em; font-weight:bold; color:#222; margin-top:60px; padding-right:105px; background-image:url(../img/sign.gif); background-repeat:no-repeat; background-position:right center; line-height:50px;}
+.overCon .sign .name { font-size:24px}
+/*인사말*/
+
+
+
+
+/*오시는 길*/
+.contact_address {width:100%;height:auto;line-height:1.7;}
+.contact_address ul {max-width:1240px;clear: both;padding:0 10px 20px 10px;border-bottom:1px solid #ddd;}
+.contact_address ul li {color: #333;margin-top: 5px;margin-bottom: 5px;}
+.contact_traffic { max-width:1240px; padding:20px 10px 0 10px; letter-spacing:-0.8px;  clear:both;}
+.contact_traffic:after {content: " ";visibility: hidden;display: block;height: 0;padding-bottom:50px;clear: both;}
+.contact_traffic .bus {width:100%;padding:0;}
+.contact_traffic .subway {width:100%; padding:0;}
+.contact_traffic ul li {color: #555; line-height:33px;}
+.contact_traffic h3 { font-size:20px; font-weight:300; letter-spacing:-1px; color:#000; padding-bottom:10px; text-align:left}/* í‘¸í„°íŒì—…*/
+
+.map_info{width:283px;height:214px;background:#000;position:absolute;left:0;top:0px;padding: 30px 28px;font-size:16px;color:#f8969a;letter-spacing:0;}
+.map_info span{display:block;font-size:20px;color:#e3b62a;letter-spacing:-.25px;}
+.map_info p { padding-top:20px; color:#f2f2f2; line-height:1.4;}
+.map_btn{position:absolute;left:30px;bottom:30px;}
+.map_btn a{display:inline-block;width:100px;height:41px;line-height:41px;;border:1px solid #f2f2f2;text-align:center; color:#FFF; letter-spacing:-0.5px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+.map_btn a:hover{color:#c2131a;background:#fff;border-color:#fff; text-decoration:none;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+.map_btn a:first-child{margin-right:5px;}
+/*오시는 길*/
+
+
+
+.hompage_service h2 { font-size:24px; padding-bottom:50px; color:#333; font-weight:bold}
+.hompage_service p { font-size:14px}
+.hompage_service ul {max-width:1200px;height:300px;margin:auto;margin-top:150px;	}
+.hompage_service ul li {font-size:16px;font-weight:100;text-align:center;float:left;width:25%; min-height:280px}
+
+
+
+
+
+@media screen and (max-width:960px) {
+.hompage_service ul li { width:50%}	
+}

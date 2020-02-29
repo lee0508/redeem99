@@ -1,0 +1,11 @@
+body {padding:5px;}
+ select {font-size:12px; margin-bottom:10px; line-height:2em; height: 24px; }
+.check0 { color: #ddd; }
+.check1 { color: #06F; }
+.box-table {border-collapse:collapse; width:100%; background-color:#fff;}
+.box-table td, .box-table th { border:1px solid #ccc; padding:4px;}
+.box-table td.tc {text-align:center;}
+.box-table td.link {word-break:break-all}
+.box-table td.td-check {width:40px;}
+.box-table th {background-color:#EEE;}
+.btn.btn-check {font-size:12px; background-color:#F36; color:#fff; padding:0.4em 0.4em; height:auto;}
